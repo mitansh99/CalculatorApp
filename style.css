@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Whisper&display=swap');
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;
+        width: 97vw;
+        font-family: 'Whisper', cursive;
+        flex-direction: column;
+        position: relative;
+    }
+    table{
+        width: 300px;
+        height: 400px;
+        
+        font-style: oblique;
+    }
+    tr{
+        display: flex;
+        justify-content: space-evenly;
+        padding:10px 0 ;
+    }
+   td{
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    width: 60px;
+    
+   }
+   tr:nth-child(1)>td{
+    text-align: end;
+    font-size: 25px;
+    font-weight: 600;
+    width: auto;
+    margin-bottom: 20px;
+   }
+   tr:nth-child(1)>td>input{
+    border: none;
+    outline: none;
+    margin-left: -2px;
+    padding: 10px 7px 0 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    color: black;
+    font-size: 25px;
+   }
+   .button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.dev{
+    font-size: medium;
+    position: absolute;
+    top: 95%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+}
+a{
+    color: black;
+}
+ 
